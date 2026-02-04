@@ -3,9 +3,9 @@ import streamlit as st
 import mysql.connector
 
 # ---------------- MySQL Connection ----------------
-import mysql.connector
 
-conn = mysql.connector.connect(
+import pymysql
+conn = pymysql.connect(
     host="localhost",
     user="studentuser",
     password="student123",
